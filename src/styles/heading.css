@@ -1,0 +1,65 @@
+.body
+{
+    background-image: linear-gradient(green,white);
+    height: 1000;
+}
+.head1
+{
+    border: 1px solid;
+    box-shadow: 0 0 50px 0 #afb1a9;
+    margin: 20px;
+    padding: 10px;
+    background-image: url("https://images.unsplash.com/photo-1614849286447-fb815456e5a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxpZ2h0JTIwY29sb3VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: 100% ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.preview
+{
+    text-align: center;
+}
+
+.image{
+    padding-top: 4%;
+    padding-bottom: 4%;
+   display: flex;
+   justify-content: center;
+}
+.desc
+{
+    background-image: url("https://media.istockphoto.com/photos/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-picture-id1188030698?b=1&k=20&m=1188030698&s=170667a&w=0&h=r-O8ZixVmoN6DPPrVyb0l23KLCKFwBbVzPyp6ciIrSI=" );
+    background-size: 100% 100%;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.desc0
+{
+    padding-top: 5%;
+}
+.desc1
+{
+    margin-top: 15px;
+    padding-left: 5%;
+}
+.img1
+{
+   
+    text-align: center;
+   border-radius: 20px;
+   border-top:10px !important;
+    
+}
+.btn
+{
+   text-align: center;    
+}
+.btn1:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(23, 160, 48, 0.4);
+  }
+  .btn2:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(160, 23, 23, 0.4);
+  }
