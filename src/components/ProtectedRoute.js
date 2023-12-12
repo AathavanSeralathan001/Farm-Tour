@@ -8,9 +8,9 @@ export default function ProtectedRoute({children}) {
     if(!user){
        return <Navigate to="/"/>
     }
-    // else{
-    //     return <Navigate to="/login" />;
-    // }
+    else{
+        return <Navigate to="/login" />;
+    }
     return children;
 }
 

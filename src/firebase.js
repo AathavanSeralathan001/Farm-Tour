@@ -12,7 +12,16 @@ const app = firebase.initializeApp({
   storageBucket: "farm-tour.appspot.com",
   messagingSenderId: "183943473032",
   appId: "1:183943473032:web:a7ac8b715a35b8ea34bc3d"
+  // apiKey: "AIzaSyCKAIR4igXgcjw6VXhiMbVuioCH8yCzxIk",
+  // authDomain: "farm-tour-bb784.firebaseapp.com",
+  // projectId: "farm-tour-bb784",
+  // storageBucket: "farm-tour-bb784.appspot.com",
+  // messagingSenderId: "281635073511",
+  // appId: "1:281635073511:web:872ae1e986efff4393e142",
+  // measurementId: "G-V0CMWP8P0R"
 })
+
+
 
 
 

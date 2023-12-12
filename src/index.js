@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import i18next from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import HttpApi from 'i18next-http-backend'
@@ -36,13 +36,12 @@ const loadingMarkup = (
     <h3>Loading..</h3>
   </div>
 )
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <Suspense fallback={loadingMarkup}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </Suspense>,
-  document.getElementById('root')
+  </Suspense>
 )
 
